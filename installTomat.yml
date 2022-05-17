@@ -1,4 +1,4 @@
-- hosts: 3.110.117.1
+- hosts: all
   become: true
   tasks:
     - name: Install Java
